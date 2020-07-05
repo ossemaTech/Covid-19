@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300&family=Roboto:wght@400&display=swap');
+
+.about {
+    margin-top: 50px;
+}
+
+@media(max-width: 991px) {
+    .orderImgAbout {order: 2;}
+    .orderAbout {order: 1;}
+    .aboutImg {margin-top: 40px;}
+}
+
+.spanTitle {
+    background-color: #fceceb;
+    color: #ff4e5b;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
+.titleAbout {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #50658e;
+}
+
+.descAbout {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #888;
+    line-height: 1.7;
+}
+
+.blockquot {
+    border-left: 4px solid #007bff;
+    color: #888;
+    padding: 10px 0 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.btnAbout {
+    composes: bntStatistic from '../header/header.module.css';
+    font-weight: 500;
+}
+
+.imgAbout {max-width: 100%;}
+
+@media(max-width: 576px) {
+    .btnAbout {margin-left: 0 !important;}
+}

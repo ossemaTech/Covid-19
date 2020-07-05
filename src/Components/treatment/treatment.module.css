@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.treatment {padding-top: 40px; overflow: hidden;}
+
+.treatmentHeading {text-align: center; margin-bottom: 50px;}
+
+.spanTitle {composes: spanTitle from '../about/about.module.css';}
+
+.titleTreat {composes: titleAbout from '../about/about.module.css';}
+
+.descTreat {
+    composes: descAbout from '../about/about.module.css';
+    width: 60%;
+    margin: auto;
+}
+
+@media(min-width: 992px) {
+    .flexlgNowrap {flex-wrap: nowrap !important;}
+    .leftIcontTreat {order: -1;}
+}
+
+.leftIcontTreat,
+.rightIcontTreat {flex-grow: 1 !important;}
+
+.marginImg {margin: auto;}
+
+.ImgTreatment {margin-top: 20px;}
+
+.ImgTreatment .imgPort {max-width: 100%; height: auto;}
+
+.protectLeft {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.protectRight {composes: protectLeft}
+
+.protectGfx {
+    position: relative;
+    background: #fff;
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    flex-shrink: 0;
+}
+
+.negative .protectGfx::after {
+    content: "\00D7";
+    background: #ff4e5b;
+    left: 0;
+}
+
+.positive .protectGfx::after {
+    content: "\2713";
+    background-color: #007bff;
+    right: 0;    
+}
+
+.protectGfx::after {
+    position: absolute;
+    top: 0;
+    font-family: "Nioicon";
+    font-size: 1.0625rem;
+    line-height: 1;
+    border-radius: 50%;
+    color: #fff;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.protectGfx img {max-width: 100%;}
+.dosentProt {font-size: .9375rem;margin-bottom: 0;}
+
+@media(max-width: 576px) {
+    .protectLeft,
+    .protectRight {padding-left: 40%;}
+}
+
+@media(min-width: 576px) {
+    .positive .protectGfx {margin-right: 1rem;}
+    .negative {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .negative .protectGfx {margin-left: 1rem;}
+}
+
+@media(min-width: 992px) {
+    .positive .protectGfx::before {right: 100%;}
+    .protectGfx::before {
+        position: absolute;
+        top: 50%;
+        content: '';
+        border-bottom: 1px dashed #007bff;
+    }
+
+    .negative .protectGfx::before {left: 100%;}
+}
+
+@media(min-width: 1200px) {
+    .protectGfx::before {width: 140px;}
+}
+
+
+
+
+
+
+

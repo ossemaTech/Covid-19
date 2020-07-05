@@ -1,0 +1,49 @@
+.symptons {
+    background-color: #f7f9fe;
+    padding-top: 50px;
+}
+
+.spanTitle {composes: spanTitle from '../about/about.module.css';}
+
+.titleSymptons {composes: titleAbout from '../about/about.module.css';}
+
+.descSymptons {composes: descAbout from '../about/about.module.css';}
+
+.someSymptons {
+    background-color: #fff;
+    padding: 18px 0;
+    margin-bottom: 10px;
+    border-left: 4px solid #007bff;
+    text-align: center;
+    background: linear-gradient(to right, #007bff 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    margin-left:10px;
+    transition:all 1s ease;
+}
+
+.someSymptons i {
+    margin-right: 10px;
+    border: 1px solid #ff4e5b;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #ff4e5b;
+    transition:all 3s ease;
+}
+
+.someSymptons:hover {
+    background-position:left bottom;
+    border-left: 4px solid #ff4e5b;
+    color: #fff;
+}
+
+.someSymptons:hover i {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.imgSympt {max-width: 100%;}
+
+@media(max-width: 991px) {
+    .symptImg {margin-top: 40px;}
+}
