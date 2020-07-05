@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.brand {
+    padding: 0px !important;
+}
+
+.navitem  a{
+    color: #50658e !important;
+    font-size: 18px !important;
+    font-family: 'Poppins', sans-serif;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+
+.navitem  a:focus,
+.navitem  a:hover,
+.navitem a:active {color: #007bff !important;}
+
+.navitem  a:focus,
+.navitem a:active {font-weight: 600 !important;}
