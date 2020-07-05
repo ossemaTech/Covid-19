@@ -2,6 +2,28 @@ import axios from 'axios';
 
 const url = 'https://corona.lmao.ninja/v2';
 
+export const fetchData = async (country) => {
+    let changeUrl;
+
+    if(country) {
+        changeUrl = `${url}/countries/${country}`;
+    }else {
+        changeUrl = `${url}/all`;
+    }
+
+    console.log(changeUrl);
+    try {
+        const {data : {cases, recovered, deaths, todayCases, todayDeaths, affectedCountries, updated}} = await axios.get(changeUrl);
+        return {cases, recovered, deaths, todayCases, todayDeaths, affectedCountries, updated};
+        /* 
+            or you can write this way
+            const modifiedData = {confirmed : confirmed, ....}
+        */
+    } catch (error) {
+        console.log(error, 'Error in fetch Data Static Cases All Worlds')
+    }
+}
+
 export const fetchDataBlog = async () => {
     const url = process.env.PUBLIC_URL + '/JSON/data.json';
 
