@@ -12,7 +12,7 @@ function SectionNavbar(props) {
             <Navbar bg="light" expand="lg">
                 <Container>
                     <Navbar.Brand href="/" className={styles.brand}>
-                        <Image src='#' alt='Covid_19' width='200px' height='60px' />
+                        <Image src={process.env.PUBLIC_URL + props.logo} alt='Covid_19' width='200px' height='60px' />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

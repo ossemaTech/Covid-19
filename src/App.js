@@ -1,5 +1,6 @@
-import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
+import {BrowserRouter} from 'react-router-dom';
+import {fetchDataContact} from './Api';
 
 import './App.css';
 
@@ -7,9 +8,30 @@ import './App.css';
 import Navbar from './Components/navbar/';
 
 function App() {
+
+  const [state, setState] = useState({
+    data: {},
+    country: [],
+    blog: [],
+    faq: [],
+    setting: {},
+    websiteInfo: [],
+    countrie: '',
+  })
+
+  useEffect(() => {
+
+    fetchDataContact.apply().then(contact => {
+      setState(p => {
+        return {...p, setting: contact}
+      })
+    });
+
+}, []);
+
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar logo={state.setting.logo}/>
     </BrowserRouter>
   );
 }

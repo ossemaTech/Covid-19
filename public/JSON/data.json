@@ -1,0 +1,316 @@
+{
+    "blog" : [
+        {
+            "id" : 1,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Medicine",
+            "dateBlog": " July 10, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog1.jpg"
+        },
+        {
+            "id" : 2,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Treatment",
+            "dateBlog": " July 15, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog2.jpg"
+        },
+        {
+            "id" : 3,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Symptons",
+            "dateBlog": " July 1, 2020",
+            "tag": "covid-19,symptons,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog3.jpg"
+        },
+        {
+            "id" : 4,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Medicine",
+            "dateBlog": " July 10, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog4.jpg"
+        },
+        {
+            "id" : 5,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Treatment",
+            "dateBlog": " July 15, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog5.jpg"
+        },
+        {
+            "id" : 6,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Symptons",
+            "dateBlog": " July 1, 2020",
+            "tag": "covid-19,symptons,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog6.jpg"
+        },
+        {
+            "id" : 7,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Medicine",
+            "dateBlog": " July 10, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog7.jpg"
+        },
+        {
+            "id" : 8,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Treatment",
+            "dateBlog": " July 15, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog8.jpg"
+        },
+        {
+            "id" : 9,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Symptons",
+            "dateBlog": " July 1, 2020",
+            "tag": "covid-19,symptons,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog9.png"
+        },
+        {
+            "id" : 10,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Medicine",
+            "dateBlog": " July 10, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog10.jpg"
+        },
+        {
+            "id" : 11,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Treatment",
+            "dateBlog": " July 15, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog11.png"
+        },
+        {
+            "id" : 12,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Symptons",
+            "dateBlog": " July 1, 2020",
+            "tag": "covid-19,symptons,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog12.jpg"
+        },
+        {
+            "id" : 13,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Medicine",
+            "dateBlog": " July 10, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog13.jpg"
+        },
+        {
+            "id" : 14,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Treatment",
+            "dateBlog": " July 15, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog14.jpg"
+        },
+        {
+            "id" : 15,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Symptons",
+            "dateBlog": " July 1, 2020",
+            "tag": "covid-19,symptons,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog15.jpg"
+        },
+        {
+            "id" : 16,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Medicine",
+            "dateBlog": " July 10, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog16.jpg"
+        },
+        {
+            "id" : 17,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Treatment",
+            "dateBlog": " July 15, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog17.jpg"
+        },
+        {
+            "id" : 18,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Symptons",
+            "dateBlog": " July 1, 2020",
+            "tag": "covid-19,symptons,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog18.jpg"
+        },{
+            "id" : 19,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Medicine",
+            "dateBlog": " July 10, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog19.jpg"
+        },
+        {
+            "id" : 20,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Treatment",
+            "dateBlog": " July 15, 2020",
+            "tag": "covid-19,protected,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog20.png"
+        },
+        {
+            "id" : 21,
+            "title": "Thousands of Patients Referred to Substance Use Treatment",
+            "categ": "Symptons",
+            "dateBlog": " July 1, 2020",
+            "tag": "covid-19,symptons,coronavirus,virus",
+            "description": "Masks are effective only when used in combination with frequent .",
+            "image": "/images/blogs/blog21.jpg"
+        }
+        
+    ],
+
+     "faq" : [
+        {
+            "id": 1,
+            "question": "What is a novel coronavirus? ",
+            "reponse": "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019"
+        },
+        {
+            "id": 2,
+            "question": "Why might someone blame or avoid individuals and groups?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. "
+        },
+        {
+            "id": 3,
+            "question": "Can someone who has had COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. "
+        },
+        {
+            "id": 4,
+            "question": "Why is the disease being called coronavirus disease COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+        },
+        {
+            "id": 5,
+            "question": "How can people help stop stigma related to COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. "
+        },
+        {
+            "id": 6,
+            "question": "Can someone who has had COVID-19 spread to others?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+        },
+        {
+            "id": 7,
+            "question": "Will warm weather stop the outbreak of COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+        },
+        {
+            "id": 8,
+            "question": "What temperature kills the virus that causes COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."   
+        },
+        {
+            "id": 9,
+            "question": "What is a novel coronavirus? ",
+            "reponse": "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019"
+        },
+        {
+            "id": 10,
+            "question": "Why might someone blame or avoid individuals and groups?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. "
+        },
+        {
+            "id": 11,
+            "question": "Can someone who has had COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. "
+        },
+        {
+            "id": 12,
+            "question": "Why is the disease being called coronavirus disease COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+        },
+        {
+            "id": 13,
+            "question": "How can people help stop stigma related to COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. "
+        },
+        {
+            "id": 14,
+            "question": "Can someone who has had COVID-19 spread to others?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+        },
+        {
+            "id": 15,
+            "question": "Will warm weather stop the outbreak of COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+        },
+        {
+            "id": 16,
+            "question": "What temperature kills the virus that causes COVID-19?",
+            "reponse": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."   
+        }
+     ],
+
+     "WebsiteInfo": [
+         {
+             "id": 1,
+             "linkSite": "https://www.who.int/",
+             "nameSite": "WHO Website"
+         },
+         {
+            "id": 2,
+            "linkSite": "https://www.cdc.gov/",
+            "nameSite": "CDC Website"
+        },
+        {
+            "id": 3,
+            "linkSite": "https://www.nhc.noaa.gov/",
+            "nameSite": "NHC Website"
+        },
+        {
+            "id": 4,
+            "linkSite": "https://www.health.harvard.edu/",
+            "nameSite": "Harvard Health"
+        }
+     ],
+
+     "setting" :
+        {
+            "id": 1,
+            "logo": "/images/covid-19.png",
+            "descrip": "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19)",
+            "map" : "124, Queens walk 2nd cross newyork 5241.",
+            "phone" : "+216 5244 6832",
+            "timeWork" : "Mon - Fri: 08.00 to 19.00",
+            "mail": "jlididev20@gmail.com",
+            "iconFb": "fa fa-facebook",
+            "facebook": "https://www.facebook.com/ossama.jlidi.71/",
+            "iconTwit": "fa fa-twitter",
+            "twitter": "https://twitter.com/JlidiOssama",
+            "iconLinkd": "fa fa-linkedin",
+            "linkdin": "https://www.linkedin.com/in/ossama-jlidi-a750381a4/"
+        }
+}
