@@ -11,14 +11,14 @@ function SectionNavbar(props) {
         <React.Fragment>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="/" className={styles.brand}>
+                    <Navbar.Brand href="/covid19" className={styles.brand}>
                         <Image src={process.env.PUBLIC_URL + props.logo} alt='Covid_19' width='200px' height='60px' />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className={cx(styles.navitem, "ml-auto")}>
-                            <NavItem eventkey={1} href="/">
-                                <Nav.Link as={Link} to="/" >Home</Nav.Link>
+                            <NavItem eventkey={1} href="/covid19">
+                                <Nav.Link as={Link} to="/covid19" >Home</Nav.Link>
                             </NavItem>
                             <NavItem eventkey={2} href="/about">
                                 <Nav.Link as={Link} to="/about" >About</Nav.Link>

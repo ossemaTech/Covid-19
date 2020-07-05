@@ -41,7 +41,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar logo={state.setting.logo}/>
-      <Route exact path='/' render={() => 
+      <Route exact path='/covid19' render={() => 
         <Home data = {state.data} />}  
       />
     </BrowserRouter>
