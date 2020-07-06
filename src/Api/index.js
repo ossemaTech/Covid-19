@@ -24,6 +24,23 @@ export const fetchData = async (country) => {
     }
 }
 
+export const fetchAllCountry = async (country) => {
+    let changeUrl;
+    if(country) {
+        changeUrl = `${url}/${country}`;
+    }
+    try {
+        const {data} = await axios.get(changeUrl);
+        return {data};
+        /* 
+            or you can write this way
+            const modifiedData = {confirmed : confirmed, ....}
+        */
+    } catch (error) {
+        console.log(error, 'Error in Fetch All Country')
+    }
+}
+
 export const fetchDataBlog = async () => {
     const url = process.env.PUBLIC_URL + '/JSON/data.json';
 

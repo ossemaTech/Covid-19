@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/*Start Block Contact */
+.formContact {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, .06);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, .06);
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, .06);
+    border-radius: 8px;
+    padding: 20px 0 20px 25px; 
+    margin-top: 20px;
+}
+
+.titleContact {
+    margin: 20px 0 30px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #50658e;
+}
+
+.label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+}
+.numPhone {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    margin-top: 10px;
+}
+
+.phone {
+    font-size: 25px;
+    font-weight: 900;
+    color: #007bff;
+    margin-top: 5px;
+}
+
+.blockBtn {text-align: right;}
+
+.btnMessage {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 50px;
+    line-height: 50%;
+    margin-top: 15px;
+    background: transparent;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-image: none;
+    background-size: auto;
+    background-image: linear-gradient(to right, #187be7 0%, #269bef 30%, #269bef 60%, #187be7 100%);
+    background-size: 300% 100%;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 0px !important;
+    transition: all .5s ease;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+
+.btnMessage:hover {background-position: right center;}
+/*End Block Contact */
+

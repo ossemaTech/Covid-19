@@ -1,0 +1,8 @@
+.counterTopCases {
+    background-color: #f7f9fe;
+    padding: 50px 0;
+}
+
+@media(max-width: 991px) {
+    .datatableCountry {margin-top: 50px;}
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.casesTop {padding-left: 80px;}
+
+.headerTopCountry {margin-bottom: 13px;margin-top: 3px;}
+
+.casesTop h5 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #444;
+}
+
+.linkStat {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #007bff;
+}
+
+.headingTab {
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 6px 8px;
+}
+
+.itemBodyTab {
+    color: #50658e;
+    font-family: 'Poppins', sans-serif;
+    padding: 2px 8px !important;
+}
+
+.spanBodyTab {
+    padding-left: 8px;
+}
+
+.flagCountry {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
