@@ -1,0 +1,17 @@
+.headingTab {composes: headingTab from '../cases_top/casesTop.module.css';}
+.itemBodyTab {composes: itemBodyTab from '../cases_top/casesTop.module.css'; padding: 6px 5px !important;}
+.spanBodyTab {composes: spanBodyTab from '../cases_top/casesTop.module.css';}
+.flagCountry {composes: flagCountry from '../cases_top/casesTop.module.css';}
+
+.newDeaths {
+    background-color: #ff4e5b;
+    color: #fff;
+    font-weight: 600;
+}
+
+.newCases {
+    background-color: #FFEEAA;
+    font-weight: 600;
+}
+
+.newRecovered {color: #007bff;font-weight: 600;}

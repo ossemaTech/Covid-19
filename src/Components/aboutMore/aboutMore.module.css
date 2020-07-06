@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300&family=Roboto:wght@400&display=swap');
+
+.aboutMore {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #f1f5fe;
+    background-position: -270px center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+.headingAbout {margin-top: 80px;}
+.spanTitle {composes: spanTitle from '../about/about.module.css';}
+.titleAbout {composes: titleAbout from '../about/about.module.css'}
+.descAbout {composes: descAbout from '../about/about.module.css'}
+
+.secondTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #50658e;
+}
+
+.aboutMoreImg .imgAboutmore {max-width: 100%;}

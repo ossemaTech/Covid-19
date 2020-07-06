@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.infoContactUs {
+    margin: 50px 0;
+}
+
+.rowContact {
+    position: relative;
+top: 0px;
+border-radius: 5px;
+box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.imgContact {
+    position: relative;
+    width: 100%;
+}
+
+.Img {
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto
+}
+
+.headingContactus {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.spanTitle {composes: spanTitle from '../../Components/about/about.module.css';}
+.titleContactUs {composes: titleAbout from '../../Components/about/about.module.css'; font-size: 55px;}
+
+.infoColumn {
+    background: #fff;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.bexInfoContact {
+    position: relative;
+    padding: 35px 30px 30px 40px;
+}
+
+.nameService {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.descService {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+}
+
+.infoService {
+    composes: descService;
+    color: #007bff;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400&display=swap');
+
+.symptonsInfo {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #f1f5fe;
+    background-image: url(/images/symptoms-backg.jpg);
+    background-position: -270px center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+.spanSympt {
+    background-color: #fceceb;
+    color: #ff4e5b;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
+.titleSympt {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin: 15px 0 10px 0;
+    color: #50658e;
+}
+
+.firstItem .itemSympt {margin-top: 50px;}
+.lastItem .itemSympt {margin-top: -50px;}
+
+.itemSympt {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px 0 rgba(51,48,78,.15);
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 12px;
+}
+
+.titleitem {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #666;
+    margin-bottom: 13px;
+    margin-top: 15px;
+}
+
+.descitem {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #777;
+}

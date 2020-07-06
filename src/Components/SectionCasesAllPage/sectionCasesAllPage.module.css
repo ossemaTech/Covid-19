@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.sectionCases {
+    position: relative;
+    padding: 30px 0px 70px;
+    background-image: linear-gradient(to right, #065d9b 0%, #269bef 50%, #9ed1f5 100%);
+    margin-bottom: 40px;
+}
+
+.headingCases {text-align: center;}
+
+.spanTitle {composes: spanTitle from '../about/about.module.css';}
+.titleSection {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: 700;
+    margin: 20px 0 60px 0;
+    color: #fff;
+}
+
+.typeCases {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.typeCases::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    right: -10px;
+    background: #fff;
+    opacity: .1;
+}
+
+.iconCases {position: relative;margin-bottom: 20px;}
+.imgCases {width: 80px;}
+
+.nbrtotal {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titleTotal {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+}

@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+// This is Link get Data Covid19 in All The World By JSON
 const url = 'https://corona.lmao.ninja/v2';
 
+// Fetch Data to All World but without dtails information
 export const fetchData = async (country) => {
     let changeUrl;
 
@@ -24,6 +26,8 @@ export const fetchData = async (country) => {
     }
 }
 
+
+// Fetch Data All Country with All Details
 export const fetchAllCountry = async (country) => {
     let changeUrl;
     if(country) {
@@ -41,6 +45,7 @@ export const fetchAllCountry = async (country) => {
     }
 }
 
+// Fetch Data Blog
 export const fetchDataBlog = async () => {
     const url = process.env.PUBLIC_URL + '/JSON/data.json';
 
@@ -57,6 +62,7 @@ export const fetchDataBlog = async () => {
     
 }
 
+// Fetch Data All Questions About Coronavirus
 export const fetchDataQuetions = async () => {
     const url = process.env.PUBLIC_URL + '/JSON/data.json';
 
@@ -72,6 +78,7 @@ export const fetchDataQuetions = async () => {
     }
 }
 
+// Fetch Data Contact
 export const fetchDataContact = async () => {
     const url = process.env.PUBLIC_URL + '/JSON/data.json';
 
@@ -87,6 +94,7 @@ export const fetchDataContact = async () => {
     }
 }
 
+// Fetch Data Link Several Source About Corona and Any Disease
 export const fetchDataLinkWebsite = async () => {
     const url = process.env.PUBLIC_URL + '/JSON/data.json';
 
@@ -99,5 +107,23 @@ export const fetchDataLinkWebsite = async () => {
         }
     }else {
         console.log('Error in URL Get Data Contact');
+    }
+}
+
+// Fetch Total Numbers Cases, Condirmed and Deaths About Coronavirus
+export const fetchDailyData = async () => {
+    try {
+        const {data} = await axios.get(`https://covid19.mathdro.id/api/daily`);
+        const modifiedData = data.map(dailyData => ({
+            confirmed: dailyData.confirmed.total,
+            deaths: dailyData.deaths.total,
+            date: dailyData.reportDate,
+        }));
+
+        return modifiedData;
+
+    }catch(error) {
+        console.log(error, 'Error in Get Data Daily');
+        
     }
 }

@@ -25,21 +25,21 @@ function SectionFooter(props) {
             <Container>
                 <Row>
                     <Col lg='3' md='12' sm="12">
-                        <Image src={props.setting.logo} alt='Covid_19' width='200px' height='60px' />
+                        <Image src={process.env.PUBLIC_URL + props.setting.logo} alt='Covid_19' width='200px' height='60px' />
                         <p className={styles.descrip}> {props.setting.descrip} </p>
                         <ul className={styles.list}>
                             <li className={styles.iconSocial}>
-                                <a href={props.setting.facebook}>
+                                <a href={props.setting.facebook} target="_blank">
                                     <i className={props.setting.iconFb} ></i>
                                 </a>
                             </li>
                             <li className={styles.iconSocial}>
-                                <a href={props.setting.twitter}>
+                                <a href={props.setting.twitter} target="_blank">
                                     <i className={props.setting.iconTwit} ></i>
                                 </a>
                             </li>
                             <li className={styles.iconSocial}>
-                                <a href={props.setting.linkdin}>
+                                <a href={props.setting.linkdin} target="_blank">
                                     <i className={props.setting.iconLinkd} ></i>
                                 </a>
                             </li>
