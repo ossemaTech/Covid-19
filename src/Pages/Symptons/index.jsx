@@ -23,7 +23,7 @@ function Symptons(props) {
                     <Row className={styles.symptonsInfoBlock}>
                         <Col lg='6' md='12' className={styles.firstItem}>
                             <div className={styles.itemSympt}>
-                                <Media>
+                                <Media className={styles.mediaItem}>
                                     <img
                                         className="mr-3"
                                         src={process.env.PUBLIC_URL + '/images/symptoms-1.png'} alt="symptoms_covid19"
@@ -40,7 +40,7 @@ function Symptons(props) {
                         </Col>
                         <Col lg='6' md='12'>
                             <div className={styles.itemSympt}>
-                                <Media>
+                                <Media className={styles.mediaItem}>
                                     <img
                                         className="mr-3"
                                         src={process.env.PUBLIC_URL + '/images/symptoms-2.png'} alt="symptoms_covid19"
@@ -57,7 +57,7 @@ function Symptons(props) {
                         </Col>
                         <Col lg='6' md='12'>
                             <div className={styles.itemSympt}>
-                                <Media>
+                                <Media className={styles.mediaItem}>
                                     <img
                                         className="mr-3"
                                         src={process.env.PUBLIC_URL + '/images/symptoms-3.png'} alt="symptoms_covid19"
@@ -74,7 +74,7 @@ function Symptons(props) {
                         </Col>
                         <Col lg='6' md='12' className={styles.lastItem}>
                             <div className={styles.itemSympt}>
-                                <Media>
+                                <Media className={styles.mediaItem}>
                                     <img
                                         className="mr-3"
                                         src={process.env.PUBLIC_URL + '/images/symptoms-4.png'} alt="symptoms_covid19"

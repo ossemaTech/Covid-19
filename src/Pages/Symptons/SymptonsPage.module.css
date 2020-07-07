@@ -41,6 +41,12 @@
     padding-top: 12px;
 }
 
+@media(max-width: 567px) {
+    .mediaItem {
+        display: block !important;
+    }
+}
+
 .titleitem {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;

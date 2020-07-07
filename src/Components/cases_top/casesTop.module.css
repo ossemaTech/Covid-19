@@ -2,6 +2,10 @@
 
 .casesTop {padding-left: 80px;}
 
+@media(max-width: 767px) {
+    .casesTop {padding-left: 0px !important} 
+}
+
 .headerTopCountry {margin-bottom: 13px;margin-top: 3px;}
 
 .casesTop h5 {

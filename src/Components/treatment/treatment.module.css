@@ -78,7 +78,7 @@
 
 @media(max-width: 576px) {
     .protectLeft,
-    .protectRight {padding-left: 40%;}
+    .protectRight {padding-left: 30%;}
 }
 
 @media(min-width: 576px) {

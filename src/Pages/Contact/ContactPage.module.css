@@ -30,6 +30,10 @@ box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
 .spanTitle {composes: spanTitle from '../../Components/about/about.module.css';}
 .titleContactUs {composes: titleAbout from '../../Components/about/about.module.css'; font-size: 55px;}
 
+@media(max-width: 600px) {
+    .titleContactUs {font-size: 35px !important;}
+}
+
 .infoColumn {
     background: #fff;
     overflow: hidden;

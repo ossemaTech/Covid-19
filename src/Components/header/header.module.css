@@ -36,19 +36,29 @@
     /*.titleCases {text-align: center !important;}*/
 }
 
-@media(max-width: 576px) {
-    .heading {font-size: 4rem !important;margin-left: 80px;}
-    .headingSmall .covid {font-size: 1.7rem !important;}
-    .headingSmall {font-size: 1.3rem !important;}
+@media(max-width: 400px) {
+    .imageHeader img {max-width: 100% !important;}
+    .heading {font-size: 3rem !important;margin-left: 20px;}
+    .headingSmall .covid {font-size: 1.2rem !important;}
+    .headingSmall {font-size: 1rem !important; margin-top: 9px !important;}
     .descriptHeader {font-size: 15px !important;}
     .bntStatistic {padding: 11px 10px !important; margin-left: 90px !important;}
-    .btnNews {margin-left: 0 !important;}
+    .btnNews {margin-left: 80px !important;}
+    .bntStatistic {margin-left: 65px !important;}
     .casesWorld {margin-top: 35px !important;}
     .bntStatistic,
     .descriptHeader,
     .casesWorld,
     .titleCases,
     .lastupdate {text-align: center !important;}
+}
+
+@media(max-width: 500px) {
+    .bntStatistic {margin-left: 30px !important;}
+    .btnNews {margin-left: 0px !important;}
+    .heading {font-size: 3.5rem !important;margin-left: 20px;}
+    .headingSmall .covid {font-size: 1.7rem !important;}
+    .headingSmall {font-size: 1.3rem !important; margin-top: 12px !important;}
 }
 
 .heading {
